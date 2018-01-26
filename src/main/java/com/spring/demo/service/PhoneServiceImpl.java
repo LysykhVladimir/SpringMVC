@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.spring.demo.dao.PhoneDAO;
 import com.spring.demo.model.Phone;
 
+@Service
 public class PhoneServiceImpl implements PhoneService{
 
     @Autowired
