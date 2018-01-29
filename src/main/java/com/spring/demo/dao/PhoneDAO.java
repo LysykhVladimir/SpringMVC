@@ -11,5 +11,4 @@ public interface PhoneDAO {
     public Phone getPhoneById(int id);
     public void removePhone(int id);
 
-
 }

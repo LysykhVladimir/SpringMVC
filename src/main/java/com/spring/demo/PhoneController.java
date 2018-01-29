@@ -54,6 +54,4 @@ public class PhoneController {
         model.addAttribute("listPhones", this.phoneService.listPhones());
         return "phone";
     }
-
-
 }

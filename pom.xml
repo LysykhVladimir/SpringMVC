@@ -76,12 +76,14 @@
             <artifactId>spring-orm</artifactId>
             <version>${org.springframework-version}</version>
         </dependency>
+
         <!-- AspectJ -->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
             <version>${org.aspectj-version}</version>
         </dependency>
+
         <!-- Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -132,6 +134,7 @@
             <artifactId>javax.inject</artifactId>
             <version>1</version>
         </dependency>
+
         <!-- Servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -200,7 +203,6 @@
                 <mainClass>org.test.int1.Main</mainClass>
             </configuration>
         </plugin>
-
     </plugins>
 
         <finalName>${project.artifactId}</finalName>
